@@ -53,7 +53,7 @@ public class alluretestCases extends BaseClass{
 	   Thread.sleep(3000);
 	  String title= driver.getTitle();
 	  System.out.println(title);
-	  Assert.assertEquals(title, "Facebookganesh");
+	  Assert.assertEquals(title, "Facebook");
    }
    @Epic("E001")
    @Feature("Feature2 :Logout")
